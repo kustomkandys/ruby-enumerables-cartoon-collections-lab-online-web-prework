@@ -11,7 +11,7 @@ end
 def long_planeteer_calls(array)
   array.each do
     array.any?{|i| i.length >= 4 }
-  end
+  while
   array.all?{|i| i.length <= 4}
 end
 
